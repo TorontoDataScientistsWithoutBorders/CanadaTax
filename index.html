@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tax Trends in Canada</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Tax Trends in Canada">
+  <meta name="author" content="Piyush Agrawal">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Tax Trends in Canada</h1>
+    <h2>Building Data Products, Coursera</h2>
+    <p>Piyush Agrawal<br/>Student</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Objective</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Objective : To create a fully interactive shiny app to visualize Tax Trends of Canada and its provinces over the years.</p>
+
+<p>Technologies Used : Shiny with R</p>
+
+<p>Packages used : shinydashboard, shiny, plotly, leaflet</p>
+
+<p>Hosted at : <a href="https://agrawalpiyush2309.shinyapps.io/CanadaTax/">https://agrawalpiyush2309.shinyapps.io/CanadaTax/</a></p>
+
+<p>Github : <a href="https://github.com/agrawalpiyush2309/CanadaTax">https://github.com/agrawalpiyush2309/CanadaTax</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Layout</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Animated List</p>
+
+<ol class = "build incremental">
+<li><p>Sidebar panel containing dropdown with list of provinces</p></li>
+<li><p>Links to all the graphs in the dashboard in the sidebar panel</p></li>
+<li><p>Link to MyGithub Page</p></li>
+<li><p>In Main Panel, map graph with markers or consituencies of Commons from the House of Commons.</p></li>
+<li><p>Details of Affiliations, Constituency and Image of the MP upon click on the marker.</p></li>
+<li><p>Zoom in and Zoom out facility for interacticity.</p></li>
+</ol>
+
+<pre><code>                                                                            ..... continued
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Layout</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Animated List</p>
+
+<ol class = "build incremental">
+<li><p>Bar plot to visualize Tax trends in % across all provinces in Canada.</p></li>
+<li><p>This plot changes to Number of persons and Taxfilers across major cities of Provinces when 
+ province/territory is selected.</p></li>
+<li><p>Hover over to view values of the bars.</p></li>
+<li><p>Tabbed plot at the bottom with 7 tabs showing trends in various factors relating to taxes and tax filers.</p></li>
+<li><p>Graphs show cumulative details when displayed for Canada and display corresponding trend when Province/Territory is selected.</p></li>
+<li><p>Information Boxes showing total population in 2015 and Taxfilers in 2015 for canada and provinces separately.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Snapshot of the App</h2>
+  </hgroup>
+  <article data-timings="">
+    <div style='text-align: center;'>
+    <img height='400' src='App.png' />
+</div>
+
+<p>Thank You!!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Objective'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Layout'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Layout'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Snapshot of the App'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

@@ -1,0 +1,73 @@
+---
+title       : Tax Trends in Canada
+subtitle    : Building Data Products, Coursera
+author      : Piyush Agrawal
+job         : Student
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Objective
+
+Objective : To create a fully interactive shiny app to visualize Tax Trends of Canada and its provinces over the years.
+
+Technologies Used : Shiny with R
+
+Packages used : shinydashboard, shiny, plotly, leaflet
+
+Hosted at : https://agrawalpiyush2309.shinyapps.io/CanadaTax/
+
+Github : https://github.com/agrawalpiyush2309/CanadaTax
+
+--- .class #id 
+
+## Layout
+Animated List
+
+> 1. Sidebar panel containing dropdown with list of provinces
+
+> 2. Links to all the graphs in the dashboard in the sidebar panel
+
+> 3. Link to MyGithub Page
+
+> 4. In Main Panel, map graph with markers or consituencies of Commons from the House of Commons.
+
+> 5. Details of Affiliations, Constituency and Image of the MP upon click on the marker.
+
+> 6. Zoom in and Zoom out facility for interacticity.
+
+                                                                                ..... continued
+
+--- .class #id 
+
+## Layout
+Animated List
+
+> 7. Bar plot to visualize Tax trends in % across all provinces in Canada.
+
+> 8. This plot changes to Number of persons and Taxfilers across major cities of Provinces when 
+     province/territory is selected.
+
+> 9. Hover over to view values of the bars.
+
+> 10. Tabbed plot at the bottom with 7 tabs showing trends in various factors relating to taxes and tax filers.
+
+> 11. Graphs show cumulative details when displayed for Canada and display corresponding trend when Province/Territory is selected.
+
+> 12. Information Boxes showing total population in 2015 and Taxfilers in 2015 for canada and provinces separately.
+
+---
+
+## Snapshot of the App
+
+<div style='text-align: center;'>
+    <img height='400' src='App.png' />
+</div>
+
+Thank You!!
+
+
